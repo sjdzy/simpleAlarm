@@ -142,7 +142,6 @@ return false;
     }
     public static String get_duration(int hour,int minute,boolean isrepeated,boolean reaptedDays[])
     {
-        //dd
         Calendar currentTime = Calendar.getInstance();
         int currentDayOfWeek = currentTime.get(Calendar.DAY_OF_WEEK);
         // 创建一个Calendar对象，用于设置闹钟的时间
