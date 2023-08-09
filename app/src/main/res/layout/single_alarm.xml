@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:background="@drawable/mysingle_alarm_background"
+    android:layout_marginBottom="5dp">
+
+    <LinearLayout
+        android:id="@+id/alarm_linearlayout"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/Time_textview"
+            android:layout_width="151dp"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="15:23"
+            android:textSize="50dp"
+            android:textStyle="bold"></TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/date_textview"
+                android:layout_width="149dp"
+                android:layout_height="42dp"
+                android:ellipsize="end"
+                android:text="只响一次"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/Alarm_names"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:ellipsize="end"
+                android:textSize="15dp"></TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Switch
+        android:paddingRight="10dp"
+        android:id="@+id/switchView"
+        android:layout_width="69dp"
+        android:layout_height="match_parent"
+        android:checked="true"
+        android:gravity="center" />
+
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">helloAndroid</string>
+    <string name="button_find_songs">重新搜寻本地音乐</string>
+    <string name="button_stop">播放/暂停</string>
+    <string name="button_delete_song">删除所选歌曲</string>
+    <string name="button_confirm">确认保存</string>
+    <string name="button_add_ring">添加闹钟</string>
+    <string name="textview_add_ring">添加闹钟</string>
+    <string name="button_backtomain">返回</string>
+    <string name="button_save_ring">添加</string>
+    <string name="switch_viberate">响铃时振动</string>
+</resources>
