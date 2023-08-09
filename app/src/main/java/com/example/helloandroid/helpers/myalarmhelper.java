@@ -7,14 +7,10 @@ import android.content.Intent;
 import android.net.Uri;
 import android.widget.Toast;
 
-import androidx.activity.result.contract.ActivityResultContracts;
-
 import com.example.helloandroid.database.userDBhelper;
-import com.example.helloandroid.entiy.myAlarm;
+import com.example.helloandroid.entity.myAlarm;
 import com.example.helloandroid.util.AlarmReceiver;
 
-import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.Calendar;
 
 public  class myalarmhelper {

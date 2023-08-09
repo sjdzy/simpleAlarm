@@ -11,9 +11,6 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.helloandroid.R;
-import com.example.helloandroid.database.userDBhelper;
-import com.example.helloandroid.entiy.myAlarm;
-import com.example.helloandroid.helpers.myalarmhelper;
 
 public class CloseAlarmActivity extends AppCompatActivity implements View.OnClickListener {
     Button button_close_alarm;

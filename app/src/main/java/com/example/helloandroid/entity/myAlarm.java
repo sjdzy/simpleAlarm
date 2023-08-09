@@ -1,13 +1,11 @@
-package com.example.helloandroid.entiy;
+package com.example.helloandroid.entity;
 
 import android.net.Uri;
-import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import androidx.annotation.NonNull;
 
-import java.io.Serializable;
 import java.util.UUID;
 
 public class myAlarm implements Parcelable{

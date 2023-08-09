@@ -13,9 +13,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.helloandroid.R;
-import com.example.helloandroid.entiy.myAlarm;
+import com.example.helloandroid.entity.myAlarm;
 
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 

@@ -8,15 +8,11 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.database.sqlite.SQLiteStatement;
 import android.net.Uri;
-import android.util.Log;
 
 import androidx.annotation.Nullable;
 
-import com.example.helloandroid.entiy.myAlarm;
-import com.example.helloandroid.entiy.song;
-
-import java.sql.SQLException;
-import java.util.UUID;
+import com.example.helloandroid.entity.myAlarm;
+import com.example.helloandroid.entity.song;
 
 public  class  userDBhelper extends SQLiteOpenHelper {
 

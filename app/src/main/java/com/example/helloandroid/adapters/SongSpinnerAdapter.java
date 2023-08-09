@@ -10,7 +10,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 
 import com.example.helloandroid.R;
-import com.example.helloandroid.entiy.song;
+import com.example.helloandroid.entity.song;
 
 import java.util.List;
 

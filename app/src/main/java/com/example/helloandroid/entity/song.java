@@ -1,4 +1,4 @@
-package com.example.helloandroid.entiy;
+package com.example.helloandroid.entity;
 
 import android.net.Uri;
 

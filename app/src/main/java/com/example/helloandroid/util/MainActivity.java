@@ -36,8 +36,8 @@ import com.example.helloandroid.R;
 import com.example.helloandroid.adapters.SongSpinnerAdapter;
 import com.example.helloandroid.adapters.myAlarmsRecylcerViewAdapter;
 import com.example.helloandroid.database.userDBhelper;
-import com.example.helloandroid.entiy.myAlarm;
-import com.example.helloandroid.entiy.song;
+import com.example.helloandroid.entity.myAlarm;
+import com.example.helloandroid.entity.song;
 import com.example.helloandroid.helpers.NotificationHelper;
 import com.example.helloandroid.helpers.myalarmhelper;
 

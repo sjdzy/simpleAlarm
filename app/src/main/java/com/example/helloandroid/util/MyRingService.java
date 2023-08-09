@@ -8,7 +8,6 @@ import android.content.Intent;
 import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.os.Build;
-import android.os.Bundle;
 import android.os.IBinder;
 import android.os.Vibrator;
 
@@ -16,7 +15,7 @@ import androidx.core.app.NotificationCompat;
 
 import com.example.helloandroid.R;
 import com.example.helloandroid.database.userDBhelper;
-import com.example.helloandroid.entiy.myAlarm;
+import com.example.helloandroid.entity.myAlarm;
 import com.example.helloandroid.helpers.myalarmhelper;
 
 public class MyRingService extends Service {
