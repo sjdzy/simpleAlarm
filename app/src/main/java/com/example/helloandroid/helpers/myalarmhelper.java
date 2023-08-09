@@ -116,7 +116,6 @@ public  class myalarmhelper {
     public  static String set_alarm(Context context,myAlarm myAlarm,boolean isToast)
     {
 
-
         set_alarm(context.getApplicationContext(),String.valueOf( myAlarm.getAlarmId()),myAlarm.getHour(),myAlarm.getMinutes(),myAlarm.getRingtoneUri(),
                 myAlarm.getVibrationSetting(),myAlarm.isRepeated(),myAlarm.repeateddays(),myAlarm.getRingtoneNames(),myAlarm.isIson(),isToast);
 
@@ -154,7 +153,7 @@ return false;
         if(isrepeated)
         {
             for (int i = 0; i < 7; i++) {
-                int index = (currentDayOfWeek - 1 + i) % 7; // 修正星期几的索引
+                int index = (currentDayOfWeek - 1 + i) % 7; // 修正星期几索引
                 if (reaptedDays[index]) {
                     daysToAdd = i;
 
